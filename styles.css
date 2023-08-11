@@ -517,9 +517,6 @@ input {
     padding: 1.25rem;
     border-radius: .5rem;
 }
-.portfolio__item-details {
-    /*==display: none;==*/
-}
 
 .projects__img {
     border-radius: .5rem;
