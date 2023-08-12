@@ -517,6 +517,9 @@ input {
     background-color: var(--box-color);
     padding: 1.25rem;
     border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 .projects__img {
     border-radius: .5rem;
