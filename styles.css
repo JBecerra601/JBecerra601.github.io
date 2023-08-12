@@ -490,7 +490,7 @@ input {
 
 /*===== projects Section =====*/
 .projects__container {
-    grid-template-columns: repeat(3, 330px);
+    grid-template-columns: repeat(1, 330px);
     gap: 1.8rem;
     justify-content: center;
     padding-top: 1rem;
@@ -920,12 +920,6 @@ input {
         margin-bottom: var(--mb-0-75);
     }
 }
-    .WordSection1 {
-        border: 5px solid;
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-    }
 
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
