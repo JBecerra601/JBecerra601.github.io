@@ -489,6 +489,7 @@ input {
 
 
 /*===== projects Section =====*/
+
 .projects__container {
     grid-template-columns: repeat(1, 330px);
     gap: 1.8rem;
