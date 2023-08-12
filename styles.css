@@ -490,10 +490,9 @@ input {
 
 /*===== projects Section =====*/
 .projects__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(1, 330px);
     gap: 1.8rem;
+    place-items: center;
     padding-top: 1rem;
 }
 
@@ -517,7 +516,6 @@ input {
     background-color: var(--box-color);
     padding: 1.25rem;
     border-radius: .5rem;
-}
 
 .projects__img {
     border-radius: .5rem;
