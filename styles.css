@@ -490,9 +490,9 @@ input {
 
 /*===== projects Section =====*/
 .projects__container {
-    grid-template-columns: repeat(1, 330px);
+    display: grid;
     gap: 1.8rem;
-    justify-content: center;
+    place-items: center;
     padding-top: 1rem;
 }
 
