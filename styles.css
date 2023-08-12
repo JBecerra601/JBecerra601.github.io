@@ -490,9 +490,10 @@ input {
 
 /*===== projects Section =====*/
 .projects__container {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1.8rem;
-    place-items: center;
     padding-top: 1rem;
 }
 
@@ -502,8 +503,6 @@ input {
     align-items: center;
     column-gap: .75rem;
     margin-bottom: 2rem;
-    display: grid;
-    place-items: center;
 }
 
 .projects__item  {
@@ -512,16 +511,12 @@ input {
     padding: .25rem .75rem;
     font-weight: var(--font-medium);
     border-radius: .5rem;
-    display: grid;
-    place-items: center;
 }
 
 .projects__card {
     background-color: var(--box-color);
     padding: 1.25rem;
     border-radius: .5rem;
-    display: grid;
-    place-items: center;
 }
 
 .projects__img {
@@ -529,16 +524,12 @@ input {
     margin-bottom: var(--mb-1);
     height:60%;
     width:auto;
-    display: grid;
-    place-items: center;
 }
 
 .projects__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
-    display: grid;
-    place-items: center;
 }
 
 .projects__button {
@@ -548,15 +539,11 @@ input {
     align-items: center;
     column-gap: .25rem;
     cursor: pointer;
-    display: grid;
-    place-items: center;
 }
 
 .projects__button-icon {
     font-size: 1rem;
     transition: .3s;
-    display: grid;
-    place-items: center;
 }
 
 .projects__button:hover .projects__button-icon {
